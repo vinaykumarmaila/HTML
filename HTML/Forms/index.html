@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <!-- reg form, login form, contact form, survey form, application form, feedback, search form,..etc.., -->
+    
+     <form action="main.py" method="post">
+
+        <div>
+            <label for="Uname">UserName:</label>
+        <input type="text" name="x"  id="Uname" />
+        </div> <br>
+        <fieldset>
+            <legend>Myform</legend>
+            <div>
+                <label for="em">Email:</label>
+                <input type="email" name="email" id="em">
+             </div> <br>  
+             <input type="password" name="" id="" placeholder="Enter password">  <br> <br>
+              </div> 
+        </fieldset> <br><br>
+
+        <input type="number" placeholder="Enter age">
+     <br> <br>
+     
+     <div>
+<label for="DOB">Date of birth</label>
+<input type="date" name="dob" id="DOB">
+     </div><br>
+
+     <input type="datetime-local" name="" id=""> <br><br>
+     <input type="color" name=" id"> <br><br>
+     <input type="url" name=" id"> <br><br>
+     <input type="file" name="" id=""><br><br>
+     <input type="month" name=" id"> 
+     <input type="week" name="" id=""> <br> <br>
+<!-- radio button, check boxes, drop downs -->
+<p>Languages known:</p>
+    <input type="checkbox" name="lang" id="java">
+    <label for="java">JAVA</label>
+    <input type="checkbox" name="lang" id="python">
+    <label for="python">PYTHON</label>
+    <input type="checkbox" name="lang" id="php">
+    <label for="php">PHP</label> <br><br>
+    <p>Select Gender:</p>
+    <input type="radio" name="m" id="ma">
+     <label for="ma">male</label>
+     <input type="radio" name="m" id="fe">
+     <label for="fe">female</label>
+     <br><br>
+     
+     <select name="courses" id="course" >
+        <optgroup label="IT">
+            <option value="j">java</option>
+            <option value="p">python</option>
+         <option value="f">frondend</option>
+        </optgroup>
+     <optgroup label="EEE">
+        <option value="vlsi">VLSI</option>
+        <option value="stld">STLD</option>
+     </optgroup>
+
+ <optgroup label="mech">
+    <option value="upmc">UCMP</option>
+ <option value="dsp">DSP</option>
+ </optgroup>
+ 
+
+     </select>
+
+
+
+
+     <br><br>
+     <textarea name="" id="" cols="30" rows="10"></textarea>
+     <input type="search" name="" id="">
+        
+     <button type="" >submit</button>
+        
+    </form>
+</body>
+</html>

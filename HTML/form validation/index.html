@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>A sample form for validation</h1>
+     <form action="main.py">
+        <p>All * are required</p>
+        <fieldset>
+            <legend>Myform</legend>
+            <div>
+            <label for="uname">Name*</label>
+        <input type="text" name="uname" id="uname" required >
+        </div> <br>
+        <div>
+            <label for="email">Email:</label>
+        <input type="email" name="uname" id="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" >
+        </div> <br>
+        <div>
+            <label for="pwd">password:</label>
+        <input type="password" name="password" minlength="1" maxlength="12" id="pwd">
+        </div><br>
+        <div>
+            <label for="Age">Age:</label>
+        <input type="number" name="age" id="Age" min="18" max="55" disabled >
+        <input type="hidden" name="batch" id="25">
+        </div><br> </fieldset>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

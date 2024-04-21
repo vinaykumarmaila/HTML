@@ -1,1 +1,16 @@
 notes for html
+HTML
+---------
+ Tags vs elements
+ Headings,paragraphs,anchor,images
+ inline vs block
+ lists
+ formatting Tags
+ symbols and emojis.
+ tables
+ semantic elements
+ class and Id
+ forms - all input elements
+ validation
+ media- video,audio,iframe,picture
+ HTML5: drag n drop, geolocation, canvas, svg ,data attributes etc.., -- with JS
