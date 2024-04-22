@@ -1,0 +1,23 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    font-size: 20px;
+}
+.image{
+    height: 100px;
+}
+a{
+    background-color: blueviolet;
+    height: 200px;
+}
+#para{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cbox
+{
+background-color: red;
+height: 50%;
+width: 20em;
+}
